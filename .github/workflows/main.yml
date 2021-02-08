@@ -34,13 +34,13 @@ jobs:
         run: |
           make install
       - name: Lint with pylint
-         run: |
+        run: |
            make lint
-       - name: Test with pytest
-         run: |
+      - name: Test with pytest
+        run: |
            make test
-       - name: Format code
-         run: |
+      - name: Format code
+        run: |
            make format
           
 
